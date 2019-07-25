@@ -1,0 +1,8 @@
+<IfModule mod_headers.c>
+    Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Allow-Headers: Content-Type, Authorization
+
+    RewriteEngine on
+    RewriteBase /
+</IfModule>
